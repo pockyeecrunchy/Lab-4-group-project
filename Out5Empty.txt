@@ -1,0 +1,19 @@
+Input File: Empty.txt
+
+
+BubbleSort Before: 
+
+BubbleSort After: 
+
+Comparisons: 0
+Swaps: 0
+
+
+InsertionSort Before: 
+
+Insertion Sort After: 
+
+Comparisons: 0
+Swaps:0
+
+ 
