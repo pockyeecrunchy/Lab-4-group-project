@@ -9,12 +9,13 @@ void BubbleSort(int arr[], int size, int& comparisons, int& swaps)
 
         for (int index = 0; index < size - pass - 1; index++)
         {
-
-            comparisons++;                                           // Increment comparison count for each comparison made
+            // Increment comparison count for each comparison made
+            comparisons++;    
 
             if (arr[index] > arr[index + 1])
             {
-                swaps++;                                             // Increment swap count for each swap made
+                // Increment swap count for each swap made
+                swaps++;   
                 int temp = arr[index];
                 arr[index] = arr[index + 1];
                 arr[index + 1] = temp;

@@ -4,27 +4,45 @@
 #include "Functions.h"
 
 int main() {
-    int choice;                                  // Choice for menu selection
 
-    int arr[100];                                // Array to hold the integers read from the file up to 100 elements
+    // Choice for menu selection
+    int choice;                                 
 
-    int size;                                    // Variable to hold the size of the array
 
-    // Arrays for sorting
-    int bubbleArr[100];                          // Array to hold the integers for Bubble Sort up to 100 elements
-    int insertionArr[100]; 		                 // Array to hold the integers for Insertion Sort up to 100 elements
+    // Array to hold the integers read from the file up to 100 elements
+    int arr[100];
 
-    // Counter for bubblesort
-    int bubbleComp;                              // Variable to count comparisons in Bubble Sort
-    int bubbleSwap;                              // Variable to count swaps in Bubble Sort
 
-    // Counter for insertionsort
-    int insertComp;                              // Variable to count comparisons in Insertion Sort
-    int insertSwap;                              // Variable to count swaps in Insertion Sort
+    // Variable to hold the size of the array
+    int size;                                 
 
-    // Variables for file names
-    string inputFile;                            // Variable to hold the name of the input file
-    string outputFile;                           // Variable to hold the name of the output file
+
+    // Array to hold the integers for Bubble Sort up to 100 elements
+    int bubbleArr[100]; 
+
+    // Array to hold the integers for Insertion Sort up to 100 elements
+    int insertionArr[100]; 		              
+
+
+    // Variable to count comparisons in Bubble Sort
+    int bubbleComp;   
+
+    // Variable to count swaps in Bubble Sort
+    int bubbleSwap;                   
+
+
+    // Variable to count comparisons in Insertion Sort
+    int insertComp;             
+
+    // Variable to count swaps in Insertion Sort
+    int insertSwap;                              
+
+
+   // Variable to hold the name of the input file
+    string inputFile;   
+
+    // Variable to hold the name of the output file
+    string outputFile;                         
 
     // Code Report Memory Leak
     _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
@@ -110,12 +128,12 @@ int main() {
             }
 
             // Counter for bubblesort
-            bubbleComp = 0;                           // Reset comparison count for Bubble Sort
-            bubbleSwap = 0;                           // Reset swap count for Bubble Sort
+            bubbleComp = 0;              // Reset comparison count for Bubble Sort
+            bubbleSwap = 0;              // Reset swap count for Bubble Sort
 
             // Counter for insertionsort
-            insertComp = 0;                           // Reset comparison count for Insertion Sort
-            insertSwap = 0;                           // Reset swap count for Insertion Sort
+            insertComp = 0;              // Reset comparison count for Insertion Sort
+            insertSwap = 0;              // Reset swap count for Insertion Sort
 
             //run the sorts
             BubbleSort(bubbleArr, size, bubbleComp, bubbleSwap);
