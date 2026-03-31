@@ -140,6 +140,7 @@ int main() {
             InsertionSort(insertionArr, size, insertComp, insertSwap);
 
             //output results
+            PrintHeader(fout, EQUAL);
             fout << "Input File: " << inputFile << "\n\n\n";
 
             // Output the result before bubble sort
@@ -156,7 +157,7 @@ int main() {
             }
 
             // Output the result after bubble sort
-            fout << "\nBubbleSort After: \n";
+            fout << "\n\nBubbleSort After: \n";
             for (int index = 0; index < size; index++)
             {
                 // Rows of 10s
@@ -169,8 +170,8 @@ int main() {
             }
 
             // Output the number of comparisons and swaps for bubble sort
-            fout << "\nComparisons: " << bubbleComp;
-            fout << "\nSwaps: " << bubbleSwap << "\n\n\n";
+            fout << "\n\nComparisons: " << bubbleComp;
+            fout << "\n\nSwaps: " << bubbleSwap << "\n\n\n";
 
             // Output the result before insertion sort
             fout << "InsertionSort Before: \n";
@@ -186,7 +187,7 @@ int main() {
             }
 
             // Output the result after insertion sort
-            fout << "\nInsertion Sort After: \n";
+            fout << "\n\nInsertion Sort After: \n";
             for (int index = 0; index < size; index++)
             {
 
@@ -200,8 +201,8 @@ int main() {
             }
 
             // Output the number of comparisons and swaps for insertion sort
-            fout << "\nComparisons: " << insertComp;
-            fout << "\nSwaps:" << insertSwap << "\n\n";
+            fout << "\n\nComparisons: " << insertComp;
+            fout << "\n\nSwaps: " << insertSwap << "\n\n";
 
 
             fout << " " << endl;
