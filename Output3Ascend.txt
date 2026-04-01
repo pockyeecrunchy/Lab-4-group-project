@@ -7,10 +7,10 @@ Input File: Ascend.txt
 
 
 BubbleSort Before: 
-4 12 22 28 33 37 39 42 46 50 
+9 16 18 27 37 40 48 58 64 69 
 
 BubbleSort After: 
-4 12 22 28 33 37 39 42 46 50 
+9 16 18 27 37 40 48 58 64 69 
 
 Comparisons: 45
 
@@ -18,10 +18,10 @@ Swaps: 0
 
 
 InsertionSort Before: 
-4 12 22 28 33 37 39 42 46 50 
+9 16 18 27 37 40 48 58 64 69 
 
 Insertion Sort After: 
-4 12 22 28 33 37 39 42 46 50 
+9 16 18 27 37 40 48 58 64 69 
 
 Comparisons: 9
 

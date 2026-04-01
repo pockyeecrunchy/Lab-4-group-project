@@ -7,24 +7,24 @@ Input File: SmallRandom.txt
 
 
 BubbleSort Before: 
-25 79 59 63 65 
+42 68 35 1 70 
 
 BubbleSort After: 
-25 59 63 65 79 
+1 35 42 68 70 
 
 Comparisons: 10
 
-Swaps: 3
+Swaps: 5
 
 
 InsertionSort Before: 
-25 79 59 63 65 
+42 68 35 1 70 
 
 Insertion Sort After: 
-25 59 63 65 79 
+1 35 42 68 70 
 
 Comparisons: 7
 
-Swaps: 3
+Swaps: 2
 
  
