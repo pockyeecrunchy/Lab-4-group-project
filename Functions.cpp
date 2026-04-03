@@ -1,7 +1,7 @@
 #include "Standard.h"
 #include "Functions.h"
 
-//Small Numbers Function - 5 random integer numbers between 1 and 100
+//Small Numbers Function - 4 random integer numbers between 1 and 100
 void SmallNumbersGenernator()
 {
 	// Loop counter for the number of iterations
@@ -10,8 +10,8 @@ void SmallNumbersGenernator()
 	// Variable to hold the generated random number
 	int randomNumber;                                            
 
-	// Array to hold the 5 random numbers
-	int smallNumbersArr[5];                                     
+	// Array to hold the 4 random numbers
+	int smallNumbersArr[4];                                     
 
 	// Declare an ofstream object to write to the file
 	ofstream fout;                                               
@@ -19,9 +19,9 @@ void SmallNumbersGenernator()
 	// Open the file "SmallRandom.txt" for writing
 	fout.open("SmallRandom.txt");                           
 
-	for (loopCount = 0; loopCount < 5; loopCount++)
+	for (loopCount = 0; loopCount < 4; loopCount++)
 	{
-		// Generate a random number between 1 and 9
+		// Generate a random number between 1 and 100
 		randomNumber = ReturnRandomNumber(1, 100);    
 
 		// Store the generated random number in the array

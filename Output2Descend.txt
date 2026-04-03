@@ -10,21 +10,21 @@ BubbleSort Before:
 
           Col1  Col2  Col3  Col4  Col5  Col6  Col7  Col8  Col9 Col10
 
-Row 1:     99    96    93    90    89    87    85    83    79    77
+Row 1:     98    97    94    91    88    87    85    83    81    77
 
-Row 2:     73    69    66    62    61    57    56    53    51    50
+Row 2:     75    71    67    64    60    59    55    54    51    49
 
-Row 3:     47    45    44    41    37
+Row 3:     48    45    43    42    39
 
 BubbleSort After:
 
           Col1  Col2  Col3  Col4  Col5  Col6  Col7  Col8  Col9 Col10
 
-Row 1:     37    41    44    45    47    50    51    53    56    57
+Row 1:     39    42    43    45    48    49    51    54    55    59
 
-Row 2:     61    62    66    69    73    77    79    83    85    87
+Row 2:     60    64    67    71    75    77    81    83    85    87
 
-Row 3:     89    90    93    96    99
+Row 3:     88    91    94    97    98
 
 Comparisons: 300
 Swaps: 300
@@ -33,21 +33,21 @@ InsertionSort Before:
 
           Col1  Col2  Col3  Col4  Col5  Col6  Col7  Col8  Col9 Col10
 
-Row 1:     99    96    93    90    89    87    85    83    79    77
+Row 1:     98    97    94    91    88    87    85    83    81    77
 
-Row 2:     73    69    66    62    61    57    56    53    51    50
+Row 2:     75    71    67    64    60    59    55    54    51    49
 
-Row 3:     47    45    44    41    37
+Row 3:     48    45    43    42    39
 
 InsertionSort After:
 
           Col1  Col2  Col3  Col4  Col5  Col6  Col7  Col8  Col9 Col10
 
-Row 1:     37    41    44    45    47    50    51    53    56    57
+Row 1:     39    42    43    45    48    49    51    54    55    59
 
-Row 2:     61    62    66    69    73    77    79    83    85    87
+Row 2:     60    64    67    71    75    77    81    83    85    87
 
-Row 3:     89    90    93    96    99
+Row 3:     88    91    94    97    98
 
 Comparisons: 300
 Swaps: 24
