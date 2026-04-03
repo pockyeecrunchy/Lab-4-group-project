@@ -161,7 +161,7 @@ void PrintArrayValues(ofstream& fout, int arr[], int size, string label) {
 		fout << setw(6) << arr[index];
 
 
-		// if there are 10 numbers in that row, do a newline
+		// if there are 10 numbers in that row, do a newline!
 		if ((index + 1) % 10 == 0) {
 			fout << endl;
 		}
