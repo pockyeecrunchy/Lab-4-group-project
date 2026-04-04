@@ -67,35 +67,35 @@ int main() {
         case 1:
             // 4 random integer numbers
             inputFile = "SmallRandom.txt";
-            outputFile = "Output1SmallRandom.txt";
+            outputFile = "Out1.txt";
             SmallNumbersGenernator();
             break;
 
         case 2:
             // 25 descending integer numbers
             inputFile = "Descend.txt";
-            outputFile = "Output2Descend.txt";
+            outputFile = "Out2.txt";
             DescendingGenernator();
             break;
 
         case 3:
             // 10 ascending integer numbers
             inputFile = "Ascend.txt";
-            outputFile = "Output3Ascend.txt";
+            outputFile = "Out3.txt";
             AscendingGenernator();
             break;
 
         case 4:
             // 50 random integer numbers
             inputFile = "LargeRandom.txt";
-            outputFile = "Output4LargeRandom.txt";
+            outputFile = "Out4.txt";
             LargeRandomGenernator();
             break;
 
         case 5:
             // Empty File
             inputFile = "Empty.txt";
-            outputFile = "Output5Empty.txt";
+            outputFile = "Out5.txt";
             EmptyGenernator();
             break;
 
@@ -120,6 +120,16 @@ int main() {
             while (fin >> arr[size]) {
                 size++;
             }
+
+            // If file (output file 5) is empty, create empty output file and skip everything.
+            if (size == 0)
+            {
+                fin.close();
+                fout.close();
+                cout << inputFile << " is empty. Output file left blank.\n";
+                continue;
+            }
+
 
             // Copy the original array to the sorting arrays
             for (int index = 0; index < size; index++) {
