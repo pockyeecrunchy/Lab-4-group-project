@@ -1,7 +1,7 @@
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
 
-// Small Numbers Array Generator - 5 random integer numbers between 1 and 9
+// Small Numbers Array Generator - 4 random integer numbers between 1 and 100
 void SmallNumbersGenernator();
 
 // Descending Array Generator - 25 descending integer numbers
