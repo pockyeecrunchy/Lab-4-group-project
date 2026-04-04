@@ -121,7 +121,7 @@ int main() {
                 size++;
             }
 
-            // If file (output file 5) is empty, create empty output file and skip everything.
+            // If file is empty, create empty output file and skip everything. Output file 5!
             if (size == 0)
             {
                 fin.close();

@@ -157,7 +157,7 @@ void PrintArrayValues(ofstream& fout, int arr[], int size, string label) {
 			fout << "\nRow " << row << ": ";
 			row++;
 		}
-
+		// Print the array value with a width of 6 for alignment 
 		fout << setw(6) << arr[index];
 
 
